@@ -1,0 +1,16 @@
+[package]
+name = "cabotin"
+version = "0.1.0"
+authors = ["Alexandre Bléron <alex.bleron@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+slotmap = { version = "0.3.0", features = ["unstable"] }
+crossbeam-channel = "0.3.8"
+irc = "0.13.6"
+itertools = "0.8.0"
+rand = "0.6.5"
+log = "0.4.6"
+pretty_env_logger = "0.3.0"
+toml = "0.4.10"
+serde = { version = "1.0.88", features = ["derive"] }
